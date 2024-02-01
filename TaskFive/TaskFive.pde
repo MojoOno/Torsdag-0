@@ -4,9 +4,15 @@ int x;
 int y;
 int counter = 0;
 int rowCounter = 0;
+int colorRed;
+int colorGreen;
+int colorBlue;
 
 void setup(){
    size(400,400);
+   colorRed = 255;
+   colorGreen = 255;
+   colorBlue = 255;
   
    numberOfCircles = 30;
    circleSize = width/numberOfCircles;
@@ -19,8 +25,8 @@ void draw(){
   x = circleSize*counter;
   y = circleSize*rowCounter;
  
- // Un-comment this line after completing step 6.a 
- // fill(red,green,blue);
+  //Un-comment this line after completing step 6.a 
+  fill(colorRed,colorGreen,colorBlue);
    
    ellipse(x,y,circleSize,circleSize);
   
