@@ -46,4 +46,15 @@ void draw(){
  
   //Add the code for 6.c here
   
-}
+  /* index = (index + range +/- increment) % range;
+     Eksempel med farve er; colorRed = (colorRed + 255 - 34) % 255;
+     increment, i dette tilfælde, er -34, og siden vi bruger modulus, så når den når 
+     0 eller maks (255), så starter den forfra i et loop. Altså modulus skaber et loop */
+  
+  if (counter==0) {
+    colorRed = (colorRed + 255 - 17) % 255;
+    colorGreen = (colorGreen + 255 - 24) % 255;
+    colorBlue = (colorBlue + 255 - 60) % 255;
+  }
+  
+  }
