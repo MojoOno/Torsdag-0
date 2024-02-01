@@ -1,18 +1,18 @@
 String address;
 int pointTildelt;
 float karakterSnit;
-String mitNavn;
+String DitNavn;
 
 void setup() {
-  address = "Marstalsgade 23";
-  pointTildelt = 35 + 50;
-  karakterSnit = (4+10+2)/3;
-  mitNavn = "Frederik Franck";
+  address = "Løvstikkevej 32";
+  pointTildelt = 25 + 30;
+  karakterSnit = (2+12+12)/3;
+  DitNavn = "John Cena";
 
   println("Adresse: " + address);
   println("Du har fået " + pointTildelt + " point ud af 100");
   println("Dit karakter gennemsnit er: " + karakterSnit);
-  println("Mit navn er: " + mitNavn);
+  println("Mit navn er: " + DitNavn);
 }
 
 void draw() {
