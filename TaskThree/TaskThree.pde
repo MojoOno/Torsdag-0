@@ -9,7 +9,7 @@ void setup() {
   pointTildelt = 25 + 30;
   karakterSnit = (2+12+12)/3;
   DitNavn = "John Cena";
-  pointTildelt = pointTildelt + 3;
+  pointTildelt--;
 
   println("Adresse: " + address);
   println("Du har fået " + pointTildelt + " point ud af 100");
@@ -23,7 +23,7 @@ void setup() {
   pointTildelt = 49 + 49;
   karakterSnit = (4+7+2)/3;
   DitNavn = "Hønriette Hansen";
-  pointTildelt = pointTildelt + 3;
+  pointTildelt--;
   
   println("Adresse: " + address);
   println("Du har fået " + pointTildelt + " point ud af 100");
