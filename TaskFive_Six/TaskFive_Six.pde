@@ -55,6 +55,13 @@ void draw(){
     colorRed = (colorRed + 255 - 17) % 255;
     colorGreen = (colorGreen + 255 - 24) % 255;
     colorBlue = (colorBlue + 255 - 60) % 255;
+    
+    //Et andet eksempel, hvis du vil have tilfældige farver er;
+    
+    colorRed = counter==0 ? (int) random(255) : colorRed;
+    colorGreen = counter==0 ? (int) random(255) : colorRed;
+    colorBlue = counter==0 ? (int) random(255) : colorBlue;
+    
   }
   
   }
